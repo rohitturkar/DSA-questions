@@ -1,0 +1,24 @@
+//Stack
+stack is the data Structure
+there are two operations in stack i.e pop and push
+whatever we will push last is will come out in first
+lifo - last in first out
+
+//Binomial coefficient
+
+n
+  C 
+    k
+
+    select k thing from n things
+   
+   n!
+____________
+
+ (n-k)! k!
+
+
+
+ //pascals traingle
+ C(0,0)==C(1,0)
+
