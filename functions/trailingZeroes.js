@@ -22,3 +22,18 @@ function trailingZeroes(fact){
 
 let fact=calculateFactorial(4);
 console.log(trailingZeroes(fact));
+
+
+//Approach-2
+
+let ans=0;
+let p=5;
+function calculateTrailingZeroes(n){
+    while((n/p)>0){
+        ans=ans+Math.floor((n/p));
+        p=p*5;
+    }
+    return ans;
+}
+
+console.log(calculateTrailingZeroes(79));
